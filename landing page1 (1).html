@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>landing page</title>
+	<style type="text/css">
+		
+		*{padding: 0; margin:0; box-sizing:border-box; }
+		header{
+			width:100%;
+			height: 100vh;
+			background:  url('https://cdn-wordpress-info.futurelearn.com/wp-content/uploads/DC22204F-D830-4C43-91E5-EE818338FE8B-606x303.jpeg.webp');
+			background-size: cover;
+			font-family: sans-serif;
+		}
+
+		nav{
+			width: 100%;
+			height: 100px;
+			
+			color: white;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.logo{
+			font-size: 2em;
+			letter-spacing: 2px;
+		}
+		.menu a{
+			text-decoration: none;
+			color: white;
+			padding: 10px 20px;
+			font-size: 20px;
+			position: relative;
+		}
+		.menu a:before{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 0%;
+			height: 100%;
+			border-bottom: 2px solid indianred;
+			transition: 0.4s linear;
+		}
+		.menu a:hover:before{
+			width:90%;
+		}
+		.register a{
+           text-decoration: none;
+           color: white;
+           padding: 10px 20px;
+           font-size: 20px;
+           background: indianred;
+           border-radius: 8px;
+           transition: 0.4s;
+		}
+		.register a:hover{
+			background: transparent;
+			border: 1px solid indianred;
+		}
+		.h-txt{
+			max-width: 650px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			color: white;
+		}
+		.h-txt span{
+			letter-spacing: 5px;
+		}
+		.h-txt h1{
+			font-size: 3,5em;
+
+		}
+		.h-txt a{
+			text-decoration: none;
+			background: indianred;
+			color: white;
+			padding: 10px 20px;
+			letter-spacing: 5px;
+			transition: 0.4s;
+		}
+		.h-txt a:hover{
+			background: transparent;
+			border: 1px solid indianred;
+		}
+	</style>
+</head>
+<body>
+  <header>
+  	<nav>
+  		<div class="logo">
+  			STUDY-X
+  		</div>
+  		<div class="menu">
+  			<a href="#"> Home</a>
+  			<a href="https://ori.hhs.gov/education/products/n_illinois_u/datamanagement/dctopic.html">collection of study</a>
+  			<a href="https://www.google.com/search?sca_esv=559765737&sxsrf=AB5stBjRM3PVCpzyaz_oseWZRebeLfrKww:1692894641435&q=books&tbm=bks&source=lnms&sa=X&ved=2ahUKEwjds_r92_WAAxWUbGwGHYrSCL8Q0pQJegQIChAB&biw=2048&bih=996&dpr=0.94">books</a>
+  			<a href="https://gng.org/programs/courses/?utm_term=study%20websites%20for%20students&utm_campaign=Stw_Parents_EXT&utm_source=adwords&utm_medium=ppc&hsa_acc=9691649620&hsa_net=adwords&hsa_grp=103211621747&hsa_ver=3&hsa_kw=study%20websites%20for%20students&hsa_tgt=kwd-296725290400&hsa_mt=b&hsa_ad=436829607255&hsa_src=g&hsa_cam=9882015111&gclid=Cj0KCQjw_5unBhCMARIsACZyzS2HecqN-6ZR8WXYJgo5oGFGvFoR0X0yILQ76znrryqSfKk4cLHGGaIaAvgBEALw_wcB">Best study platform</a>
+  			<a href="#">contact</a>
+  		</div>
+  		<div class="register">
+  			<a href="#">Register</a>
+  			
+  		</div>
+  	</nav>
+  	<section class="h-txt">
+  		<span>ENJOY STUDY</span>
+  		<h1>This is a best study material website</h1>
+  		<br>
+  		<a href="#">Log in please </a>
+  	</section>
+  </header>
+</body>
+</html>
